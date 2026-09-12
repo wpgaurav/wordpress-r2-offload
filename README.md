@@ -1,5 +1,7 @@
 # WordPress R2 Offload
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/gauravtiwari)
+
 Three WordPress mu-plugins that offload static assets to Cloudflare R2. Drop them in, define two constants, and every image, stylesheet, script, and font serves from your R2 bucket.
 
 Pair with the [Cloudflare R2 Pull-Through Cache Worker](https://github.com/wpgaurav/cloudflare-r2-wordpress-cdn) for the complete setup.
@@ -110,6 +112,16 @@ Your R2 bucket fills itself over days as real traffic flows. High-traffic assets
 
 - [Cloudflare R2 Pull-Through Cache Worker](https://github.com/wpgaurav/cloudflare-r2-wordpress-cdn) — the Cloudflare Worker that serves assets from R2
 - [Full setup guide on gauravtiwari.org](https://gauravtiwari.org/cloudflare-r2-wordpress/)
+
+## Support This Project
+
+The 3 mu-plugins here are free to use and they rewrite your WordPress asset URLs to Cloudflare R2, resize images on demand and purge stale R2 objects when you update, replace or delete media. I built them to pair with my Cloudflare R2 pull-through cache Worker, so your bucket fills itself from real traffic and there's no bulk upload to run.
+
+If your media library now serves from R2 and you never copied a file over by hand, you can buy me a coffee.
+
+<a href="https://buymeacoffee.com/gauravtiwari"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" height="50"></a>
+
+Beyond a star, the report that helps me most is an issue with your WordPress version, an asset URL that didn't get rewritten and what the Worker returned for it.
 
 ## License
 
